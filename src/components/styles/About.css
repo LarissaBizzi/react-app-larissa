@@ -1,0 +1,27 @@
+.about-section-background {
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+.about-section-container {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+    padding: 60px 0;
+    color: #495e57;
+}
+
+.about-right-section {
+    text-align: right;
+    position: right;
+}
+
+
+#restaurant {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    max-width: 100%;
+  }
