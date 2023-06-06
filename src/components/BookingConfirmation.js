@@ -29,4 +29,5 @@ function BookingConfirmation({ bookingData }) {
   );
 }
 
+
 export default BookingConfirmation;
