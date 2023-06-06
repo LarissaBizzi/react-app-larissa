@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import Header from "./Header";
 import Footer from "./Footer";
 import "./styles/ReservationsStyle.css";
 
@@ -14,7 +13,6 @@ function BookingConfirmation({ bookingData }) {
 
   return (
     <>
-      <Header />
       <div className="booking-confirmed">
         <h1>Booking Confirmed!</h1>
         {bookingData && (
